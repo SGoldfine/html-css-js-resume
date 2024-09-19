@@ -62,8 +62,8 @@ a {
 }
 
 a:hover {
-    color: grey;
-    text-decoration: underline;
+    /*color: grey;
+    text-decoration: underline; */
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181,181,181);
 }
@@ -105,8 +105,8 @@ a:hover {
 
 .menu-links {
     position: absolute;
-    top: 100%;
-    right: 0;
+    top: 15%;
+    right: 15%;
     background-color: white;
     width: fit-content;
     max-height: 0;
@@ -135,9 +135,11 @@ a:hover {
 .hamburger-icon.open span:first-child {
     transform: rotate(45deg) translate(10px, 5px);
 }
+
 .hamburger-icon.open span:nth-child(2) {
     opacity: 0;
 }
+
 .hamburger-icon.open span:last-child {
     transform: rotate(-45deg) translate(10px, -5px);
 }
@@ -145,11 +147,13 @@ a:hover {
 .hamburger-icon span:first-child {
     transform: none;
 }
+
 .hamburger-icon span:first-child {
     opacity: 1;
 }
-.hamburger-icon span:first-child {
-    transform: none;
-}
+
+/* Sections */  
+
+
 
 
