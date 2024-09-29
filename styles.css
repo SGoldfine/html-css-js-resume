@@ -281,7 +281,7 @@ section {
 
 .about-details-container {
     justify-content: center;
-    flex: column;
+    flex-direction: column;
 }
 
 .about-containers,
@@ -309,7 +309,57 @@ section {
     text-align: center;
 }
 
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
 
+.section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+/* Experience Section */
+
+#experience {
+  position: relative;
+}
+
+.experience-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+article {
+  display: flex;
+  width: 12rem;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+article .icon {
+  cursor: default;
+}
 
 
 
